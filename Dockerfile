@@ -25,5 +25,7 @@ RUN mkdir -p ${DESKTOP_FILES_DIR} ${MIME_FILES_DIR}
 USER ${NB_UID}
 
 COPY fiji.desktop ${DESKTOP_FILES_DIR}/fiji.desktop
+# Autostart fiji on startup
+COPY fiji.desktop /etc/xdg/autostart/fiji.desktop
 
 RUN python -m pip install --no-cache jupyter-remote-desktop-proxy
