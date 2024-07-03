@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Fiji
+GenericName=Fiji
+Icon=
+TryExec=/opt/Fiji.app/ImageJ-linux64
+Exec=/opt/Fiji.app/ImageJ-linux64
+Terminal=false
+StartupNotify=false
+Categories=Qt;Education;Science;
